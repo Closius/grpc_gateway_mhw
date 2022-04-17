@@ -1,0 +1,4 @@
+__pycache__
+grpc_client_cpp\\distr
+grpc_client_cpp\\.vs
+grpc_client_cpp\\Release

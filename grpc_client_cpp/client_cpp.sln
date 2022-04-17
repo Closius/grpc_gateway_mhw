@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client_cpp", "client_cpp.vcxproj", "{1FD20A79-B1BD-4C6F-ADD2-FA56B08B268E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FD20A79-B1BD-4C6F-ADD2-FA56B08B268E}.Release|x64.ActiveCfg = Release|x64
+		{1FD20A79-B1BD-4C6F-ADD2-FA56B08B268E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {741FEAC2-EB1E-4B76-8899-09F820B0EABD}
+	EndGlobalSection
+EndGlobal

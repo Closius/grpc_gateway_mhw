@@ -1,0 +1,91 @@
+syntax = "proto3";
+package calculator;
+option go_package = "cilv6s977.net.plm.eds.com/gitlab/antonk/grpc_api_for_software/-/tree/main/grpc_client_web";
+
+import "google/api/annotations.proto";
+import "google/protobuf/empty.proto";
+
+// issue https://github.com/grpc-ecosystem/grpc-gateway/issues/2649
+import "protoc-gen-openapiv2/options/annotations.proto"; // https://github.com/grpc-ecosystem/grpc-gateway
+
+// These annotations are used when generating the OpenAPI file.
+option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
+  info: {
+    version: "1.0";
+  };
+  external_docs: {
+    url: "cilv6s977.net.plm.eds.com/gitlab/antonk/grpc_api_for_software/-/tree/main/grpc_client_web";
+    description: "gRPC-gateway Anton Kavalerov test";
+  }
+  schemes: HTTPS;
+};
+
+service Calculator {
+    rpc NewTestSet(google.protobuf.Empty) returns (NewTestSet_response) {}
+    rpc ChangeSettings(ChangeSettings_request) returns (google.protobuf.Empty) {}
+    rpc DoMath(DoMath_request) returns (DoMath_response) {
+//        curl -d '{"a":4, "b": 20, "operator":"+"}' -X POST -H "Content-Type: application/json" http://localhost:50051/domath
+        option (google.api.http) = {
+            post: "/domath"
+            body: "*"
+        };
+    }
+    rpc ListToDict(ListToDict_request) returns (ListToDict_response) {}
+    rpc DictToList(DictToList_request) returns (DictToList_response) {}
+}
+
+
+message NewTestSet_response {
+    int32 message = 1;
+}
+// -------------------------------------------------------------------------------------
+message ChangeSettings_request {
+    string name = 1;
+    int32 identifier = 2;
+
+    message Options {
+        string field1_str = 1;
+        optional int32 field2_int = 2;
+        float field3_float = 3;
+        optional int32 field4_int = 4;
+        repeated string field5_rep_str = 5;
+    }
+
+    repeated Options options= 3;
+}
+// -------------------------------------------------------------------------------------
+message DoMath_request {
+    float a = 1;
+    float b = 2;
+    string operator = 3;
+}
+message DoMath_response {
+    float message = 1;
+}
+// -------------------------------------------------------------------------------------
+message ListToDict_request {
+    repeated string seq_k_str = 1;
+    repeated int32 seq_v_int = 2;
+}
+message ListToDict_response {
+    message DictMes {
+        repeated string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes message = 1;
+}
+// -------------------------------------------------------------------------------------
+message DictToList_request {
+    message DictMes {
+        string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes dict_smpl = 1;
+}
+message DictToList_response {
+    message DictMes {
+        string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes message = 1;
+}

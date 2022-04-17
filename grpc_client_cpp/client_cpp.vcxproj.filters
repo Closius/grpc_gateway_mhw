@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\client_cpp.cpp" />
+    <ClCompile Include="src\proto_compiled\calculator.grpc.pb.cc">
+      <Filter>proto_compiled</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\calculator.pb.cc">
+      <Filter>proto_compiled</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\api\annotations.grpc.pb.cc">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\api\annotations.pb.cc">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\api\http.grpc.pb.cc">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\api\http.pb.cc">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\rpc\status.grpc.pb.cc">
+      <Filter>proto_compiled\google\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\google\rpc\status.pb.cc">
+      <Filter>proto_compiled\google\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.grpc.pb.cc">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.pb.cc">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.grpc.pb.cc">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.pb.cc">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="proto_compiled">
+      <UniqueIdentifier>{d2e7eb99-6b9d-46a2-b963-08ed474b404e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_compiled\google">
+      <UniqueIdentifier>{913393d5-d3ab-4014-bac6-35b40c4ecf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_compiled\google\api">
+      <UniqueIdentifier>{75a1debf-0045-4a4f-bba9-7ab2bfa24fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_compiled\google\rpc">
+      <UniqueIdentifier>{478f7927-8586-4500-baf7-7deed04eaa1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_compiled\protoc-gen-openapiv2">
+      <UniqueIdentifier>{b6fbf2c4-1c57-473a-8045-cdc841bd7f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto_compiled\protoc-gen-openapiv2\options">
+      <UniqueIdentifier>{2401252e-ea9b-44de-803f-c83ead2dd546}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\proto_compiled\calculator.grpc.pb.h">
+      <Filter>proto_compiled</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\calculator.pb.h">
+      <Filter>proto_compiled</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\api\annotations.grpc.pb.h">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\api\annotations.pb.h">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\api\http.grpc.pb.h">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\api\http.pb.h">
+      <Filter>proto_compiled\google\api</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\rpc\status.grpc.pb.h">
+      <Filter>proto_compiled\google\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\google\rpc\status.pb.h">
+      <Filter>proto_compiled\google\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.grpc.pb.h">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.pb.h">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.grpc.pb.h">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.pb.h">
+      <Filter>proto_compiled\protoc-gen-openapiv2\options</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

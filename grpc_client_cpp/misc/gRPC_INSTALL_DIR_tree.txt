@@ -1,0 +1,1219 @@
+Folder PATH listing for volume Data
+Volume serial number is 467E-E227
+D:.
+³   tree.txt
+³   
+ÃÄÄÄbin
+³       acountry.exe
+³       adig.exe
+³       ahost.exe
+³       grpc_cpp_plugin.exe
+³       grpc_csharp_plugin.exe
+³       grpc_node_plugin.exe
+³       grpc_objective_c_plugin.exe
+³       grpc_php_plugin.exe
+³       grpc_python_plugin.exe
+³       grpc_ruby_plugin.exe
+³       protoc.exe
+³       zlib.dll
+³       
+ÃÄÄÄcmake
+³       protobuf-config-version.cmake
+³       protobuf-config.cmake
+³       protobuf-module.cmake
+³       protobuf-options.cmake
+³       protobuf-targets-release.cmake
+³       protobuf-targets.cmake
+³       
+ÃÄÄÄinclude
+³   ³   ares.h
+³   ³   ares_build.h
+³   ³   ares_dns.h
+³   ³   ares_rules.h
+³   ³   ares_version.h
+³   ³   zconf.h
+³   ³   zlib.h
+³   ³   
+³   ÃÄÄÄabsl
+³   ³   ÃÄÄÄalgorithm
+³   ³   ³       algorithm.h
+³   ³   ³       container.h
+³   ³   ³       
+³   ³   ÃÄÄÄbase
+³   ³   ³   ³   attributes.h
+³   ³   ³   ³   call_once.h
+³   ³   ³   ³   casts.h
+³   ³   ³   ³   config.h
+³   ³   ³   ³   const_init.h
+³   ³   ³   ³   dynamic_annotations.h
+³   ³   ³   ³   log_severity.h
+³   ³   ³   ³   macros.h
+³   ³   ³   ³   optimization.h
+³   ³   ³   ³   options.h
+³   ³   ³   ³   policy_checks.h
+³   ³   ³   ³   port.h
+³   ³   ³   ³   thread_annotations.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           atomic_hook.h
+³   ³   ³           atomic_hook_test_helper.h
+³   ³   ³           cycleclock.h
+³   ³   ³           direct_mmap.h
+³   ³   ³           dynamic_annotations.h
+³   ³   ³           endian.h
+³   ³   ³           errno_saver.h
+³   ³   ³           exception_safety_testing.h
+³   ³   ³           exception_testing.h
+³   ³   ³           fast_type_id.h
+³   ³   ³           hide_ptr.h
+³   ³   ³           identity.h
+³   ³   ³           inline_variable.h
+³   ³   ³           inline_variable_testing.h
+³   ³   ³           invoke.h
+³   ³   ³           low_level_alloc.h
+³   ³   ³           low_level_scheduling.h
+³   ³   ³           per_thread_tls.h
+³   ³   ³           pretty_function.h
+³   ³   ³           raw_logging.h
+³   ³   ³           scheduling_mode.h
+³   ³   ³           scoped_set_env.h
+³   ³   ³           spinlock.h
+³   ³   ³           spinlock_akaros.inc
+³   ³   ³           spinlock_linux.inc
+³   ³   ³           spinlock_posix.inc
+³   ³   ³           spinlock_wait.h
+³   ³   ³           spinlock_win32.inc
+³   ³   ³           strerror.h
+³   ³   ³           sysinfo.h
+³   ³   ³           thread_annotations.h
+³   ³   ³           thread_identity.h
+³   ³   ³           throw_delegate.h
+³   ³   ³           tsan_mutex_interface.h
+³   ³   ³           unaligned_access.h
+³   ³   ³           unscaledcycleclock.h
+³   ³   ³           
+³   ³   ÃÄÄÄcleanup
+³   ³   ³   ³   cleanup.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           cleanup.h
+³   ³   ³           
+³   ³   ÃÄÄÄcontainer
+³   ³   ³   ³   btree_map.h
+³   ³   ³   ³   btree_set.h
+³   ³   ³   ³   btree_test.h
+³   ³   ³   ³   fixed_array.h
+³   ³   ³   ³   flat_hash_map.h
+³   ³   ³   ³   flat_hash_set.h
+³   ³   ³   ³   inlined_vector.h
+³   ³   ³   ³   node_hash_map.h
+³   ³   ³   ³   node_hash_set.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           btree.h
+³   ³   ³           btree_container.h
+³   ³   ³           common.h
+³   ³   ³           compressed_tuple.h
+³   ³   ³           container_memory.h
+³   ³   ³           counting_allocator.h
+³   ³   ³           hashtablez_sampler.h
+³   ³   ³           hashtable_debug.h
+³   ³   ³           hashtable_debug_hooks.h
+³   ³   ³           hash_function_defaults.h
+³   ³   ³           hash_generator_testing.h
+³   ³   ³           hash_policy_testing.h
+³   ³   ³           hash_policy_traits.h
+³   ³   ³           have_sse.h
+³   ³   ³           inlined_vector.h
+³   ³   ³           layout.h
+³   ³   ³           node_hash_policy.h
+³   ³   ³           raw_hash_map.h
+³   ³   ³           raw_hash_set.h
+³   ³   ³           test_instance_tracker.h
+³   ³   ³           tracked.h
+³   ³   ³           unordered_map_constructor_test.h
+³   ³   ³           unordered_map_lookup_test.h
+³   ³   ³           unordered_map_members_test.h
+³   ³   ³           unordered_map_modifiers_test.h
+³   ³   ³           unordered_set_constructor_test.h
+³   ³   ³           unordered_set_lookup_test.h
+³   ³   ³           unordered_set_members_test.h
+³   ³   ³           unordered_set_modifiers_test.h
+³   ³   ³           
+³   ³   ÃÄÄÄdebugging
+³   ³   ³   ³   failure_signal_handler.h
+³   ³   ³   ³   leak_check.h
+³   ³   ³   ³   stacktrace.h
+³   ³   ³   ³   symbolize.h
+³   ³   ³   ³   symbolize_darwin.inc
+³   ³   ³   ³   symbolize_elf.inc
+³   ³   ³   ³   symbolize_emscripten.inc
+³   ³   ³   ³   symbolize_unimplemented.inc
+³   ³   ³   ³   symbolize_win32.inc
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           address_is_readable.h
+³   ³   ³           demangle.h
+³   ³   ³           elf_mem_image.h
+³   ³   ³           examine_stack.h
+³   ³   ³           stacktrace_aarch64-inl.inc
+³   ³   ³           stacktrace_arm-inl.inc
+³   ³   ³           stacktrace_config.h
+³   ³   ³           stacktrace_emscripten-inl.inc
+³   ³   ³           stacktrace_generic-inl.inc
+³   ³   ³           stacktrace_powerpc-inl.inc
+³   ³   ³           stacktrace_riscv-inl.inc
+³   ³   ³           stacktrace_unimplemented-inl.inc
+³   ³   ³           stacktrace_win32-inl.inc
+³   ³   ³           stacktrace_x86-inl.inc
+³   ³   ³           stack_consumption.h
+³   ³   ³           symbolize.h
+³   ³   ³           vdso_support.h
+³   ³   ³           
+³   ³   ÃÄÄÄflags
+³   ³   ³   ³   commandlineflag.h
+³   ³   ³   ³   config.h
+³   ³   ³   ³   declare.h
+³   ³   ³   ³   flag.h
+³   ³   ³   ³   marshalling.h
+³   ³   ³   ³   parse.h
+³   ³   ³   ³   reflection.h
+³   ³   ³   ³   usage.h
+³   ³   ³   ³   usage_config.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           commandlineflag.h
+³   ³   ³           flag.h
+³   ³   ³           flag_msvc.inc
+³   ³   ³           parse.h
+³   ³   ³           path_util.h
+³   ³   ³           private_handle_accessor.h
+³   ³   ³           program_name.h
+³   ³   ³           registry.h
+³   ³   ³           sequence_lock.h
+³   ³   ³           usage.h
+³   ³   ³           
+³   ³   ÃÄÄÄfunctional
+³   ³   ³   ³   bind_front.h
+³   ³   ³   ³   function_ref.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           front_binder.h
+³   ³   ³           function_ref.h
+³   ³   ³           
+³   ³   ÃÄÄÄhash
+³   ³   ³   ³   hash.h
+³   ³   ³   ³   hash_testing.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           city.h
+³   ³   ³           hash.h
+³   ³   ³           low_level_hash.h
+³   ³   ³           spy_hash_state.h
+³   ³   ³           
+³   ³   ÃÄÄÄmemory
+³   ³   ³       memory.h
+³   ³   ³       
+³   ³   ÃÄÄÄmeta
+³   ³   ³       type_traits.h
+³   ³   ³       
+³   ³   ÃÄÄÄnumeric
+³   ³   ³   ³   bits.h
+³   ³   ³   ³   int128.h
+³   ³   ³   ³   int128_have_intrinsic.inc
+³   ³   ³   ³   int128_no_intrinsic.inc
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           bits.h
+³   ³   ³           representation.h
+³   ³   ³           
+³   ³   ÃÄÄÄprofiling
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           exponential_biased.h
+³   ³   ³           periodic_sampler.h
+³   ³   ³           sample_recorder.h
+³   ³   ³           
+³   ³   ÃÄÄÄrandom
+³   ³   ³   ³   bernoulli_distribution.h
+³   ³   ³   ³   beta_distribution.h
+³   ³   ³   ³   bit_gen_ref.h
+³   ³   ³   ³   discrete_distribution.h
+³   ³   ³   ³   distributions.h
+³   ³   ³   ³   exponential_distribution.h
+³   ³   ³   ³   gaussian_distribution.h
+³   ³   ³   ³   log_uniform_int_distribution.h
+³   ³   ³   ³   mocking_bit_gen.h
+³   ³   ³   ³   mock_distributions.h
+³   ³   ³   ³   poisson_distribution.h
+³   ³   ³   ³   random.h
+³   ³   ³   ³   seed_gen_exception.h
+³   ³   ³   ³   seed_sequences.h
+³   ³   ³   ³   uniform_int_distribution.h
+³   ³   ³   ³   uniform_real_distribution.h
+³   ³   ³   ³   zipf_distribution.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           chi_square.h
+³   ³   ³           distribution_caller.h
+³   ³   ³           distribution_test_util.h
+³   ³   ³           explicit_seed_seq.h
+³   ³   ³           fastmath.h
+³   ³   ³           fast_uniform_bits.h
+³   ³   ³           generate_real.h
+³   ³   ³           iostream_state_saver.h
+³   ³   ³           mock_helpers.h
+³   ³   ³           mock_overload_set.h
+³   ³   ³           nanobenchmark.h
+³   ³   ³           nonsecure_base.h
+³   ³   ³           pcg_engine.h
+³   ³   ³           platform.h
+³   ³   ³           pool_urbg.h
+³   ³   ³           randen.h
+³   ³   ³           randen_detect.h
+³   ³   ³           randen_engine.h
+³   ³   ³           randen_hwaes.h
+³   ³   ³           randen_slow.h
+³   ³   ³           randen_traits.h
+³   ³   ³           salted_seed_seq.h
+³   ³   ³           seed_material.h
+³   ³   ³           sequence_urbg.h
+³   ³   ³           traits.h
+³   ³   ³           uniform_helper.h
+³   ³   ³           wide_multiply.h
+³   ³   ³           
+³   ³   ÃÄÄÄstatus
+³   ³   ³   ³   status.h
+³   ³   ³   ³   statusor.h
+³   ³   ³   ³   status_payload_printer.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           statusor_internal.h
+³   ³   ³           status_internal.h
+³   ³   ³           
+³   ³   ÃÄÄÄstrings
+³   ³   ³   ³   ascii.h
+³   ³   ³   ³   charconv.h
+³   ³   ³   ³   cord.h
+³   ³   ³   ³   cordz_test_helpers.h
+³   ³   ³   ³   cord_test_helpers.h
+³   ³   ³   ³   escaping.h
+³   ³   ³   ³   match.h
+³   ³   ³   ³   numbers.h
+³   ³   ³   ³   string_view.h
+³   ³   ³   ³   strip.h
+³   ³   ³   ³   str_cat.h
+³   ³   ³   ³   str_format.h
+³   ³   ³   ³   str_join.h
+³   ³   ³   ³   str_replace.h
+³   ³   ³   ³   str_split.h
+³   ³   ³   ³   substitute.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³       ³   charconv_bigint.h
+³   ³   ³       ³   charconv_parse.h
+³   ³   ³       ³   char_map.h
+³   ³   ³       ³   cordz_functions.h
+³   ³   ³       ³   cordz_handle.h
+³   ³   ³       ³   cordz_info.h
+³   ³   ³       ³   cordz_sample_token.h
+³   ³   ³       ³   cordz_statistics.h
+³   ³   ³       ³   cordz_update_scope.h
+³   ³   ³       ³   cordz_update_tracker.h
+³   ³   ³       ³   cord_internal.h
+³   ³   ³       ³   cord_rep_btree.h
+³   ³   ³       ³   cord_rep_btree_navigator.h
+³   ³   ³       ³   cord_rep_btree_reader.h
+³   ³   ³       ³   cord_rep_consume.h
+³   ³   ³       ³   cord_rep_flat.h
+³   ³   ³       ³   cord_rep_ring.h
+³   ³   ³       ³   cord_rep_ring_reader.h
+³   ³   ³       ³   cord_rep_test_util.h
+³   ³   ³       ³   escaping.h
+³   ³   ³       ³   escaping_test_common.h
+³   ³   ³       ³   memutil.h
+³   ³   ³       ³   numbers_test_common.h
+³   ³   ³       ³   ostringstream.h
+³   ³   ³       ³   pow10_helper.h
+³   ³   ³       ³   resize_uninitialized.h
+³   ³   ³       ³   stl_type_traits.h
+³   ³   ³       ³   string_constant.h
+³   ³   ³       ³   str_join_internal.h
+³   ³   ³       ³   str_split_internal.h
+³   ³   ³       ³   utf8.h
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄstr_format
+³   ³   ³               arg.h
+³   ³   ³               bind.h
+³   ³   ³               checker.h
+³   ³   ³               extension.h
+³   ³   ³               float_conversion.h
+³   ³   ³               output.h
+³   ³   ³               parser.h
+³   ³   ³               
+³   ³   ÃÄÄÄsynchronization
+³   ³   ³   ³   barrier.h
+³   ³   ³   ³   blocking_counter.h
+³   ³   ³   ³   mutex.h
+³   ³   ³   ³   notification.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           create_thread_identity.h
+³   ³   ³           futex.h
+³   ³   ³           graphcycles.h
+³   ³   ³           kernel_timeout.h
+³   ³   ³           per_thread_sem.h
+³   ³   ³           thread_pool.h
+³   ³   ³           waiter.h
+³   ³   ³           
+³   ³   ÃÄÄÄtime
+³   ³   ³   ³   civil_time.h
+³   ³   ³   ³   clock.h
+³   ³   ³   ³   time.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³       ³   get_current_time_chrono.inc
+³   ³   ³       ³   get_current_time_posix.inc
+³   ³   ³       ³   test_util.h
+³   ³   ³       ³   zoneinfo.inc
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄcctz
+³   ³   ³           ÃÄÄÄinclude
+³   ³   ³           ³   ÀÄÄÄcctz
+³   ³   ³           ³           civil_time.h
+³   ³   ³           ³           civil_time_detail.h
+³   ³   ³           ³           time_zone.h
+³   ³   ³           ³           zone_info_source.h
+³   ³   ³           ³           
+³   ³   ³           ÀÄÄÄsrc
+³   ³   ³                   time_zone_fixed.h
+³   ³   ³                   time_zone_if.h
+³   ³   ³                   time_zone_impl.h
+³   ³   ³                   time_zone_info.h
+³   ³   ³                   time_zone_libc.h
+³   ³   ³                   time_zone_posix.h
+³   ³   ³                   tzfile.h
+³   ³   ³                   
+³   ³   ÃÄÄÄtypes
+³   ³   ³   ³   any.h
+³   ³   ³   ³   bad_any_cast.h
+³   ³   ³   ³   bad_optional_access.h
+³   ³   ³   ³   bad_variant_access.h
+³   ³   ³   ³   compare.h
+³   ³   ³   ³   optional.h
+³   ³   ³   ³   span.h
+³   ³   ³   ³   variant.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           conformance_aliases.h
+³   ³   ³           conformance_archetype.h
+³   ³   ³           conformance_profile.h
+³   ³   ³           conformance_testing.h
+³   ³   ³           conformance_testing_helpers.h
+³   ³   ³           optional.h
+³   ³   ³           parentheses.h
+³   ³   ³           span.h
+³   ³   ³           transform_args.h
+³   ³   ³           variant.h
+³   ³   ³           
+³   ³   ÀÄÄÄutility
+³   ³           utility.h
+³   ³           
+³   ÃÄÄÄgoogle
+³   ³   ÀÄÄÄprotobuf
+³   ³       ³   any.h
+³   ³       ³   any.pb.h
+³   ³       ³   any.proto
+³   ³       ³   api.pb.h
+³   ³       ³   api.proto
+³   ³       ³   arena.h
+³   ³       ³   arenastring.h
+³   ³       ³   arena_impl.h
+³   ³       ³   descriptor.h
+³   ³       ³   descriptor.pb.h
+³   ³       ³   descriptor.proto
+³   ³       ³   descriptor_database.h
+³   ³       ³   duration.pb.h
+³   ³       ³   duration.proto
+³   ³       ³   dynamic_message.h
+³   ³       ³   empty.pb.h
+³   ³       ³   empty.proto
+³   ³       ³   explicitly_constructed.h
+³   ³       ³   extension_set.h
+³   ³       ³   extension_set_inl.h
+³   ³       ³   field_access_listener.h
+³   ³       ³   field_mask.pb.h
+³   ³       ³   field_mask.proto
+³   ³       ³   generated_enum_reflection.h
+³   ³       ³   generated_enum_util.h
+³   ³       ³   generated_message_bases.h
+³   ³       ³   generated_message_reflection.h
+³   ³       ³   generated_message_table_driven.h
+³   ³       ³   generated_message_table_driven_lite.h
+³   ³       ³   generated_message_tctable_decl.h
+³   ³       ³   generated_message_tctable_impl.h
+³   ³       ³   generated_message_tctable_impl.inc
+³   ³       ³   generated_message_util.h
+³   ³       ³   has_bits.h
+³   ³       ³   implicit_weak_message.h
+³   ³       ³   inlined_string_field.h
+³   ³       ³   map.h
+³   ³       ³   map_entry.h
+³   ³       ³   map_entry_lite.h
+³   ³       ³   map_field.h
+³   ³       ³   map_field_inl.h
+³   ³       ³   map_field_lite.h
+³   ³       ³   map_type_handler.h
+³   ³       ³   message.h
+³   ³       ³   message_lite.h
+³   ³       ³   metadata.h
+³   ³       ³   metadata_lite.h
+³   ³       ³   parse_context.h
+³   ³       ³   port.h
+³   ³       ³   port_def.inc
+³   ³       ³   port_undef.inc
+³   ³       ³   reflection.h
+³   ³       ³   reflection_ops.h
+³   ³       ³   repeated_field.h
+³   ³       ³   repeated_ptr_field.h
+³   ³       ³   service.h
+³   ³       ³   source_context.pb.h
+³   ³       ³   source_context.proto
+³   ³       ³   struct.pb.h
+³   ³       ³   struct.proto
+³   ³       ³   text_format.h
+³   ³       ³   timestamp.pb.h
+³   ³       ³   timestamp.proto
+³   ³       ³   type.pb.h
+³   ³       ³   type.proto
+³   ³       ³   unknown_field_set.h
+³   ³       ³   wire_format.h
+³   ³       ³   wire_format_lite.h
+³   ³       ³   wrappers.pb.h
+³   ³       ³   wrappers.proto
+³   ³       ³   
+³   ³       ÃÄÄÄcompiler
+³   ³       ³   ³   code_generator.h
+³   ³       ³   ³   command_line_interface.h
+³   ³       ³   ³   importer.h
+³   ³       ³   ³   parser.h
+³   ³       ³   ³   plugin.h
+³   ³       ³   ³   plugin.pb.h
+³   ³       ³   ³   plugin.proto
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄcpp
+³   ³       ³   ³       cpp_file.h
+³   ³       ³   ³       cpp_generator.h
+³   ³       ³   ³       cpp_helpers.h
+³   ³       ³   ³       cpp_names.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄcsharp
+³   ³       ³   ³       csharp_doc_comment.h
+³   ³       ³   ³       csharp_generator.h
+³   ³       ³   ³       csharp_names.h
+³   ³       ³   ³       csharp_options.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄjava
+³   ³       ³   ³       java_generator.h
+³   ³       ³   ³       java_kotlin_generator.h
+³   ³       ³   ³       java_names.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄjs
+³   ³       ³   ³       js_generator.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄobjectivec
+³   ³       ³   ³       objectivec_generator.h
+³   ³       ³   ³       objectivec_helpers.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄphp
+³   ³       ³   ³       php_generator.h
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄpython
+³   ³       ³   ³       python_generator.h
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄruby
+³   ³       ³           ruby_generator.h
+³   ³       ³           
+³   ³       ÃÄÄÄio
+³   ³       ³       coded_stream.h
+³   ³       ³       gzip_stream.h
+³   ³       ³       io_win32.h
+³   ³       ³       printer.h
+³   ³       ³       strtod.h
+³   ³       ³       tokenizer.h
+³   ³       ³       zero_copy_stream.h
+³   ³       ³       zero_copy_stream_impl.h
+³   ³       ³       zero_copy_stream_impl_lite.h
+³   ³       ³       
+³   ³       ÃÄÄÄstubs
+³   ³       ³       bytestream.h
+³   ³       ³       callback.h
+³   ³       ³       casts.h
+³   ³       ³       common.h
+³   ³       ³       hash.h
+³   ³       ³       logging.h
+³   ³       ³       macros.h
+³   ³       ³       map_util.h
+³   ³       ³       mutex.h
+³   ³       ³       once.h
+³   ³       ³       platform_macros.h
+³   ³       ³       port.h
+³   ³       ³       status.h
+³   ³       ³       stl_util.h
+³   ³       ³       stringpiece.h
+³   ³       ³       strutil.h
+³   ³       ³       template_util.h
+³   ³       ³       
+³   ³       ÀÄÄÄutil
+³   ³               delimited_message_util.h
+³   ³               field_comparator.h
+³   ³               field_mask_util.h
+³   ³               json_util.h
+³   ³               message_differencer.h
+³   ³               time_util.h
+³   ³               type_resolver.h
+³   ³               type_resolver_util.h
+³   ³               
+³   ÃÄÄÄgrpc
+³   ³   ³   byte_buffer.h
+³   ³   ³   byte_buffer_reader.h
+³   ³   ³   census.h
+³   ³   ³   compression.h
+³   ³   ³   fork.h
+³   ³   ³   grpc.h
+³   ³   ³   grpc_posix.h
+³   ³   ³   grpc_security.h
+³   ³   ³   grpc_security_constants.h
+³   ³   ³   load_reporting.h
+³   ³   ³   slice.h
+³   ³   ³   slice_buffer.h
+³   ³   ³   status.h
+³   ³   ³   
+³   ³   ÃÄÄÄevent_engine
+³   ³   ³   ³   endpoint_config.h
+³   ³   ³   ³   event_engine.h
+³   ³   ³   ³   memory_allocator.h
+³   ³   ³   ³   memory_request.h
+³   ³   ³   ³   port.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄinternal
+³   ³   ³           memory_allocator_impl.h
+³   ³   ³           
+³   ³   ÃÄÄÄimpl
+³   ³   ³   ÀÄÄÄcodegen
+³   ³   ³           atm.h
+³   ³   ³           atm_gcc_atomic.h
+³   ³   ³           atm_gcc_sync.h
+³   ³   ³           atm_windows.h
+³   ³   ³           byte_buffer.h
+³   ³   ³           byte_buffer_reader.h
+³   ³   ³           compression_types.h
+³   ³   ³           connectivity_state.h
+³   ³   ³           fork.h
+³   ³   ³           gpr_slice.h
+³   ³   ³           gpr_types.h
+³   ³   ³           grpc_types.h
+³   ³   ³           log.h
+³   ³   ³           port_platform.h
+³   ³   ³           propagation_bits.h
+³   ³   ³           slice.h
+³   ³   ³           status.h
+³   ³   ³           sync.h
+³   ³   ³           sync_abseil.h
+³   ³   ³           sync_custom.h
+³   ³   ³           sync_generic.h
+³   ³   ³           sync_posix.h
+³   ³   ³           sync_windows.h
+³   ³   ³           
+³   ³   ÀÄÄÄsupport
+³   ³           alloc.h
+³   ³           atm.h
+³   ³           atm_gcc_atomic.h
+³   ³           atm_gcc_sync.h
+³   ³           atm_windows.h
+³   ³           cpu.h
+³   ³           log.h
+³   ³           log_windows.h
+³   ³           port_platform.h
+³   ³           string_util.h
+³   ³           sync.h
+³   ³           sync_abseil.h
+³   ³           sync_custom.h
+³   ³           sync_generic.h
+³   ³           sync_posix.h
+³   ³           sync_windows.h
+³   ³           thd_id.h
+³   ³           time.h
+³   ³           workaround_list.h
+³   ³           
+³   ÃÄÄÄgrpc++
+³   ³   ³   alarm.h
+³   ³   ³   channel.h
+³   ³   ³   client_context.h
+³   ³   ³   completion_queue.h
+³   ³   ³   create_channel.h
+³   ³   ³   create_channel_posix.h
+³   ³   ³   grpc++.h
+³   ³   ³   health_check_service_interface.h
+³   ³   ³   resource_quota.h
+³   ³   ³   server.h
+³   ³   ³   server_builder.h
+³   ³   ³   server_context.h
+³   ³   ³   server_posix.h
+³   ³   ³   
+³   ³   ÃÄÄÄext
+³   ³   ³       health_check_service_server_builder_option.h
+³   ³   ³       proto_server_reflection_plugin.h
+³   ³   ³       
+³   ³   ÃÄÄÄgeneric
+³   ³   ³       async_generic_service.h
+³   ³   ³       generic_stub.h
+³   ³   ³       
+³   ³   ÃÄÄÄimpl
+³   ³   ³   ³   call.h
+³   ³   ³   ³   channel_argument_option.h
+³   ³   ³   ³   client_unary_call.h
+³   ³   ³   ³   grpc_library.h
+³   ³   ³   ³   method_handler_impl.h
+³   ³   ³   ³   rpc_method.h
+³   ³   ³   ³   rpc_service_method.h
+³   ³   ³   ³   serialization_traits.h
+³   ³   ³   ³   server_builder_option.h
+³   ³   ³   ³   server_builder_plugin.h
+³   ³   ³   ³   server_initializer.h
+³   ³   ³   ³   service_type.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄcodegen
+³   ³   ³       ³   async_stream.h
+³   ³   ³       ³   async_unary_call.h
+³   ³   ³       ³   byte_buffer.h
+³   ³   ³       ³   call.h
+³   ³   ³       ³   call_hook.h
+³   ³   ³       ³   channel_interface.h
+³   ³   ³       ³   client_context.h
+³   ³   ³       ³   client_unary_call.h
+³   ³   ³       ³   completion_queue.h
+³   ³   ³       ³   completion_queue_tag.h
+³   ³   ³       ³   config.h
+³   ³   ³       ³   config_protobuf.h
+³   ³   ³       ³   core_codegen.h
+³   ³   ³       ³   core_codegen_interface.h
+³   ³   ³       ³   create_auth_context.h
+³   ³   ³       ³   grpc_library.h
+³   ³   ³       ³   metadata_map.h
+³   ³   ³       ³   method_handler_impl.h
+³   ³   ³       ³   proto_utils.h
+³   ³   ³       ³   rpc_method.h
+³   ³   ³       ³   rpc_service_method.h
+³   ³   ³       ³   serialization_traits.h
+³   ³   ³       ³   server_context.h
+³   ³   ³       ³   server_interface.h
+³   ³   ³       ³   service_type.h
+³   ³   ³       ³   slice.h
+³   ³   ³       ³   status.h
+³   ³   ³       ³   status_code_enum.h
+³   ³   ³       ³   string_ref.h
+³   ³   ³       ³   stub_options.h
+³   ³   ³       ³   sync_stream.h
+³   ³   ³       ³   time.h
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄsecurity
+³   ³   ³               auth_context.h
+³   ³   ³               
+³   ³   ÃÄÄÄsecurity
+³   ³   ³       auth_context.h
+³   ³   ³       auth_metadata_processor.h
+³   ³   ³       credentials.h
+³   ³   ³       server_credentials.h
+³   ³   ³       
+³   ³   ÀÄÄÄsupport
+³   ³           async_stream.h
+³   ³           async_unary_call.h
+³   ³           byte_buffer.h
+³   ³           channel_arguments.h
+³   ³           config.h
+³   ³           error_details.h
+³   ³           slice.h
+³   ³           status.h
+³   ³           status_code_enum.h
+³   ³           string_ref.h
+³   ³           stub_options.h
+³   ³           sync_stream.h
+³   ³           time.h
+³   ³           
+³   ÃÄÄÄgrpcpp
+³   ³   ³   alarm.h
+³   ³   ³   channel.h
+³   ³   ³   client_context.h
+³   ³   ³   completion_queue.h
+³   ³   ³   create_channel.h
+³   ³   ³   create_channel_binder.h
+³   ³   ³   create_channel_posix.h
+³   ³   ³   grpcpp.h
+³   ³   ³   health_check_service_interface.h
+³   ³   ³   resource_quota.h
+³   ³   ³   server.h
+³   ³   ³   server_builder.h
+³   ³   ³   server_context.h
+³   ³   ³   server_posix.h
+³   ³   ³   xds_server_builder.h
+³   ³   ³   
+³   ³   ÃÄÄÄext
+³   ³   ³       channelz_service_plugin.h
+³   ³   ³       health_check_service_server_builder_option.h
+³   ³   ³       proto_server_reflection_plugin.h
+³   ³   ³       
+³   ³   ÃÄÄÄgeneric
+³   ³   ³       async_generic_service.h
+³   ³   ³       generic_stub.h
+³   ³   ³       
+³   ³   ÃÄÄÄimpl
+³   ³   ³   ³   call.h
+³   ³   ³   ³   channel_argument_option.h
+³   ³   ³   ³   client_unary_call.h
+³   ³   ³   ³   grpc_library.h
+³   ³   ³   ³   method_handler_impl.h
+³   ³   ³   ³   rpc_method.h
+³   ³   ³   ³   rpc_service_method.h
+³   ³   ³   ³   serialization_traits.h
+³   ³   ³   ³   server_builder_option.h
+³   ³   ³   ³   server_builder_plugin.h
+³   ³   ³   ³   server_initializer.h
+³   ³   ³   ³   service_type.h
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄcodegen
+³   ³   ³       ³   async_generic_service.h
+³   ³   ³       ³   async_stream.h
+³   ³   ³       ³   async_unary_call.h
+³   ³   ³       ³   byte_buffer.h
+³   ³   ³       ³   call.h
+³   ³   ³       ³   callback_common.h
+³   ³   ³       ³   call_hook.h
+³   ³   ³       ³   call_op_set.h
+³   ³   ³       ³   call_op_set_interface.h
+³   ³   ³       ³   channel_interface.h
+³   ³   ³       ³   client_callback.h
+³   ³   ³       ³   client_context.h
+³   ³   ³       ³   client_interceptor.h
+³   ³   ³       ³   client_unary_call.h
+³   ³   ³       ³   completion_queue.h
+³   ³   ³       ³   completion_queue_tag.h
+³   ³   ³       ³   config.h
+³   ³   ³       ³   config_protobuf.h
+³   ³   ³       ³   core_codegen.h
+³   ³   ³       ³   core_codegen_interface.h
+³   ³   ³       ³   create_auth_context.h
+³   ³   ³       ³   delegating_channel.h
+³   ³   ³       ³   grpc_library.h
+³   ³   ³       ³   intercepted_channel.h
+³   ³   ³       ³   interceptor.h
+³   ³   ³       ³   interceptor_common.h
+³   ³   ³       ³   message_allocator.h
+³   ³   ³       ³   metadata_map.h
+³   ³   ³       ³   method_handler.h
+³   ³   ³       ³   method_handler_impl.h
+³   ³   ³       ³   proto_buffer_reader.h
+³   ³   ³       ³   proto_buffer_writer.h
+³   ³   ³       ³   proto_utils.h
+³   ³   ³       ³   rpc_method.h
+³   ³   ³       ³   rpc_service_method.h
+³   ³   ³       ³   serialization_traits.h
+³   ³   ³       ³   server_callback.h
+³   ³   ³       ³   server_callback_handlers.h
+³   ³   ³       ³   server_context.h
+³   ³   ³       ³   server_interceptor.h
+³   ³   ³       ³   server_interface.h
+³   ³   ³       ³   service_type.h
+³   ³   ³       ³   slice.h
+³   ³   ³       ³   status.h
+³   ³   ³       ³   status_code_enum.h
+³   ³   ³       ³   string_ref.h
+³   ³   ³       ³   stub_options.h
+³   ³   ³       ³   sync.h
+³   ³   ³       ³   sync_stream.h
+³   ³   ³       ³   time.h
+³   ³   ³       ³   
+³   ³   ³       ÀÄÄÄsecurity
+³   ³   ³               auth_context.h
+³   ³   ³               
+³   ³   ÃÄÄÄsecurity
+³   ³   ³       alts_context.h
+³   ³   ³       alts_util.h
+³   ³   ³       authorization_policy_provider.h
+³   ³   ³       auth_context.h
+³   ³   ³       auth_metadata_processor.h
+³   ³   ³       binder_credentials.h
+³   ³   ³       binder_security_policy.h
+³   ³   ³       credentials.h
+³   ³   ³       server_credentials.h
+³   ³   ³       tls_certificate_provider.h
+³   ³   ³       tls_certificate_verifier.h
+³   ³   ³       tls_credentials_options.h
+³   ³   ³       
+³   ³   ÀÄÄÄsupport
+³   ³           async_stream.h
+³   ³           async_unary_call.h
+³   ³           byte_buffer.h
+³   ³           channel_arguments.h
+³   ³           client_callback.h
+³   ³           client_interceptor.h
+³   ³           config.h
+³   ³           error_details.h
+³   ³           interceptor.h
+³   ³           message_allocator.h
+³   ³           method_handler.h
+³   ³           proto_buffer_reader.h
+³   ³           proto_buffer_writer.h
+³   ³           server_callback.h
+³   ³           server_interceptor.h
+³   ³           slice.h
+³   ³           status.h
+³   ³           status_code_enum.h
+³   ³           string_ref.h
+³   ³           stub_options.h
+³   ³           sync_stream.h
+³   ³           time.h
+³   ³           validate_service_config.h
+³   ³           
+³   ÀÄÄÄre2
+³           filtered_re2.h
+³           re2.h
+³           set.h
+³           stringpiece.h
+³           
+ÃÄÄÄlib
+³   ³   absl_bad_any_cast_impl.lib
+³   ³   absl_bad_optional_access.lib
+³   ³   absl_bad_variant_access.lib
+³   ³   absl_base.lib
+³   ³   absl_city.lib
+³   ³   absl_civil_time.lib
+³   ³   absl_cord.lib
+³   ³   absl_cordz_functions.lib
+³   ³   absl_cordz_handle.lib
+³   ³   absl_cordz_info.lib
+³   ³   absl_cordz_sample_token.lib
+³   ³   absl_cord_internal.lib
+³   ³   absl_debugging_internal.lib
+³   ³   absl_demangle_internal.lib
+³   ³   absl_examine_stack.lib
+³   ³   absl_exponential_biased.lib
+³   ³   absl_failure_signal_handler.lib
+³   ³   absl_flags.lib
+³   ³   absl_flags_commandlineflag.lib
+³   ³   absl_flags_commandlineflag_internal.lib
+³   ³   absl_flags_config.lib
+³   ³   absl_flags_internal.lib
+³   ³   absl_flags_marshalling.lib
+³   ³   absl_flags_parse.lib
+³   ³   absl_flags_private_handle_accessor.lib
+³   ³   absl_flags_program_name.lib
+³   ³   absl_flags_reflection.lib
+³   ³   absl_flags_usage.lib
+³   ³   absl_flags_usage_internal.lib
+³   ³   absl_graphcycles_internal.lib
+³   ³   absl_hash.lib
+³   ³   absl_hashtablez_sampler.lib
+³   ³   absl_int128.lib
+³   ³   absl_leak_check.lib
+³   ³   absl_leak_check_disable.lib
+³   ³   absl_log_severity.lib
+³   ³   absl_low_level_hash.lib
+³   ³   absl_malloc_internal.lib
+³   ³   absl_periodic_sampler.lib
+³   ³   absl_random_distributions.lib
+³   ³   absl_random_internal_distribution_test_util.lib
+³   ³   absl_random_internal_platform.lib
+³   ³   absl_random_internal_pool_urbg.lib
+³   ³   absl_random_internal_randen.lib
+³   ³   absl_random_internal_randen_hwaes.lib
+³   ³   absl_random_internal_randen_hwaes_impl.lib
+³   ³   absl_random_internal_randen_slow.lib
+³   ³   absl_random_internal_seed_material.lib
+³   ³   absl_random_seed_gen_exception.lib
+³   ³   absl_random_seed_sequences.lib
+³   ³   absl_raw_hash_set.lib
+³   ³   absl_raw_logging_internal.lib
+³   ³   absl_scoped_set_env.lib
+³   ³   absl_spinlock_wait.lib
+³   ³   absl_stacktrace.lib
+³   ³   absl_status.lib
+³   ³   absl_statusor.lib
+³   ³   absl_strerror.lib
+³   ³   absl_strings.lib
+³   ³   absl_strings_internal.lib
+³   ³   absl_str_format_internal.lib
+³   ³   absl_symbolize.lib
+³   ³   absl_synchronization.lib
+³   ³   absl_throw_delegate.lib
+³   ³   absl_time.lib
+³   ³   absl_time_zone.lib
+³   ³   address_sorting.lib
+³   ³   cares.lib
+³   ³   crypto.lib
+³   ³   gpr.lib
+³   ³   grpc++.lib
+³   ³   grpc++_alts.lib
+³   ³   grpc++_error_details.lib
+³   ³   grpc++_reflection.lib
+³   ³   grpc++_unsecure.lib
+³   ³   grpc.lib
+³   ³   grpcpp_channelz.lib
+³   ³   grpc_plugin_support.lib
+³   ³   grpc_unsecure.lib
+³   ³   libprotobuf-lite.lib
+³   ³   libprotobuf.lib
+³   ³   libprotoc.lib
+³   ³   re2.lib
+³   ³   ssl.lib
+³   ³   upb.lib
+³   ³   zlib.lib
+³   ³   zlibstatic.lib
+³   ³   
+³   ÃÄÄÄcmake
+³   ³   ÃÄÄÄabsl
+³   ³   ³       abslConfig.cmake
+³   ³   ³       abslConfigVersion.cmake
+³   ³   ³       abslTargets-release.cmake
+³   ³   ³       abslTargets.cmake
+³   ³   ³       
+³   ³   ÃÄÄÄc-ares
+³   ³   ³       c-ares-config-version.cmake
+³   ³   ³       c-ares-config.cmake
+³   ³   ³       c-ares-targets-release.cmake
+³   ³   ³       c-ares-targets.cmake
+³   ³   ³       
+³   ³   ÃÄÄÄgrpc
+³   ³   ³   ³   gRPCConfig.cmake
+³   ³   ³   ³   gRPCConfigVersion.cmake
+³   ³   ³   ³   gRPCTargets-release.cmake
+³   ³   ³   ³   gRPCTargets.cmake
+³   ³   ³   ³   
+³   ³   ³   ÀÄÄÄmodules
+³   ³   ³           Findc-ares.cmake
+³   ³   ³           Findre2.cmake
+³   ³   ³           
+³   ³   ÀÄÄÄre2
+³   ³           re2Config-release.cmake
+³   ³           re2Config.cmake
+³   ³           
+³   ÀÄÄÄpkgconfig
+³           absl_algorithm.pc
+³           absl_algorithm_container.pc
+³           absl_any.pc
+³           absl_atomic_hook.pc
+³           absl_bad_any_cast.pc
+³           absl_bad_any_cast_impl.pc
+³           absl_bad_optional_access.pc
+³           absl_bad_variant_access.pc
+³           absl_base.pc
+³           absl_base_internal.pc
+³           absl_bind_front.pc
+³           absl_bits.pc
+³           absl_btree.pc
+³           absl_city.pc
+³           absl_civil_time.pc
+³           absl_cleanup.pc
+³           absl_cleanup_internal.pc
+³           absl_compare.pc
+³           absl_compressed_tuple.pc
+³           absl_config.pc
+³           absl_container_common.pc
+³           absl_container_memory.pc
+³           absl_cord.pc
+³           absl_cordz_functions.pc
+³           absl_cordz_handle.pc
+³           absl_cordz_info.pc
+³           absl_cordz_sample_token.pc
+³           absl_cordz_statistics.pc
+³           absl_cordz_update_scope.pc
+³           absl_cordz_update_tracker.pc
+³           absl_cord_internal.pc
+³           absl_core_headers.pc
+³           absl_counting_allocator.pc
+³           absl_debugging.pc
+³           absl_debugging_internal.pc
+³           absl_demangle_internal.pc
+³           absl_dynamic_annotations.pc
+³           absl_endian.pc
+³           absl_errno_saver.pc
+³           absl_examine_stack.pc
+³           absl_exponential_biased.pc
+³           absl_failure_signal_handler.pc
+³           absl_fast_type_id.pc
+³           absl_fixed_array.pc
+³           absl_flags.pc
+³           absl_flags_commandlineflag.pc
+³           absl_flags_commandlineflag_internal.pc
+³           absl_flags_config.pc
+³           absl_flags_internal.pc
+³           absl_flags_marshalling.pc
+³           absl_flags_parse.pc
+³           absl_flags_path_util.pc
+³           absl_flags_private_handle_accessor.pc
+³           absl_flags_program_name.pc
+³           absl_flags_reflection.pc
+³           absl_flags_usage.pc
+³           absl_flags_usage_internal.pc
+³           absl_flat_hash_map.pc
+³           absl_flat_hash_set.pc
+³           absl_function_ref.pc
+³           absl_graphcycles_internal.pc
+³           absl_hash.pc
+³           absl_hashtablez_sampler.pc
+³           absl_hashtable_debug.pc
+³           absl_hashtable_debug_hooks.pc
+³           absl_hash_function_defaults.pc
+³           absl_hash_policy_traits.pc
+³           absl_have_sse.pc
+³           absl_inlined_vector.pc
+³           absl_inlined_vector_internal.pc
+³           absl_int128.pc
+³           absl_kernel_timeout_internal.pc
+³           absl_layout.pc
+³           absl_leak_check.pc
+³           absl_leak_check_disable.pc
+³           absl_log_severity.pc
+³           absl_low_level_hash.pc
+³           absl_malloc_internal.pc
+³           absl_memory.pc
+³           absl_meta.pc
+³           absl_node_hash_map.pc
+³           absl_node_hash_policy.pc
+³           absl_node_hash_set.pc
+³           absl_numeric.pc
+³           absl_numeric_representation.pc
+³           absl_optional.pc
+³           absl_periodic_sampler.pc
+³           absl_pretty_function.pc
+³           absl_random_bit_gen_ref.pc
+³           absl_random_distributions.pc
+³           absl_random_internal_distribution_caller.pc
+³           absl_random_internal_distribution_test_util.pc
+³           absl_random_internal_fastmath.pc
+³           absl_random_internal_fast_uniform_bits.pc
+³           absl_random_internal_generate_real.pc
+³           absl_random_internal_iostream_state_saver.pc
+³           absl_random_internal_mock_helpers.pc
+³           absl_random_internal_nonsecure_base.pc
+³           absl_random_internal_pcg_engine.pc
+³           absl_random_internal_platform.pc
+³           absl_random_internal_pool_urbg.pc
+³           absl_random_internal_randen.pc
+³           absl_random_internal_randen_engine.pc
+³           absl_random_internal_randen_hwaes.pc
+³           absl_random_internal_randen_hwaes_impl.pc
+³           absl_random_internal_randen_slow.pc
+³           absl_random_internal_salted_seed_seq.pc
+³           absl_random_internal_seed_material.pc
+³           absl_random_internal_traits.pc
+³           absl_random_internal_uniform_helper.pc
+³           absl_random_internal_wide_multiply.pc
+³           absl_random_random.pc
+³           absl_random_seed_gen_exception.pc
+³           absl_random_seed_sequences.pc
+³           absl_raw_hash_map.pc
+³           absl_raw_hash_set.pc
+³           absl_raw_logging_internal.pc
+³           absl_sample_recorder.pc
+³           absl_scoped_set_env.pc
+³           absl_span.pc
+³           absl_spinlock_wait.pc
+³           absl_stacktrace.pc
+³           absl_status.pc
+³           absl_statusor.pc
+³           absl_strerror.pc
+³           absl_strings.pc
+³           absl_strings_internal.pc
+³           absl_str_format.pc
+³           absl_str_format_internal.pc
+³           absl_symbolize.pc
+³           absl_synchronization.pc
+³           absl_throw_delegate.pc
+³           absl_time.pc
+³           absl_time_zone.pc
+³           absl_type_traits.pc
+³           absl_utility.pc
+³           absl_variant.pc
+³           gpr.pc
+³           grpc++.pc
+³           grpc++_unsecure.pc
+³           grpc.pc
+³           grpc_unsecure.pc
+³           libcares.pc
+³           protobuf-lite.pc
+³           protobuf.pc
+³           
+ÀÄÄÄshare
+    ÃÄÄÄgrpc
+    ³       roots.pem
+    ³       
+    ÃÄÄÄman
+    ³   ÃÄÄÄman1
+    ³   ³       acountry.1
+    ³   ³       adig.1
+    ³   ³       ahost.1
+    ³   ³       
+    ³   ÀÄÄÄman3
+    ³           ares_cancel.3
+    ³           ares_create_query.3
+    ³           ares_destroy.3
+    ³           ares_destroy_options.3
+    ³           ares_dup.3
+    ³           ares_expand_name.3
+    ³           ares_expand_string.3
+    ³           ares_fds.3
+    ³           ares_freeaddrinfo.3
+    ³           ares_free_data.3
+    ³           ares_free_hostent.3
+    ³           ares_free_string.3
+    ³           ares_getaddrinfo.3
+    ³           ares_gethostbyaddr.3
+    ³           ares_gethostbyname.3
+    ³           ares_gethostbyname_file.3
+    ³           ares_getnameinfo.3
+    ³           ares_getsock.3
+    ³           ares_get_servers.3
+    ³           ares_get_servers_ports.3
+    ³           ares_inet_ntop.3
+    ³           ares_inet_pton.3
+    ³           ares_init.3
+    ³           ares_init_options.3
+    ³           ares_library_cleanup.3
+    ³           ares_library_init.3
+    ³           ares_library_initialized.3
+    ³           ares_library_init_android.3
+    ³           ares_mkquery.3
+    ³           ares_parse_aaaa_reply.3
+    ³           ares_parse_a_reply.3
+    ³           ares_parse_caa_reply.3
+    ³           ares_parse_mx_reply.3
+    ³           ares_parse_naptr_reply.3
+    ³           ares_parse_ns_reply.3
+    ³           ares_parse_ptr_reply.3
+    ³           ares_parse_soa_reply.3
+    ³           ares_parse_srv_reply.3
+    ³           ares_parse_txt_reply.3
+    ³           ares_process.3
+    ³           ares_query.3
+    ³           ares_save_options.3
+    ³           ares_search.3
+    ³           ares_send.3
+    ³           ares_set_local_dev.3
+    ³           ares_set_local_ip4.3
+    ³           ares_set_local_ip6.3
+    ³           ares_set_servers.3
+    ³           ares_set_servers_csv.3
+    ³           ares_set_servers_ports.3
+    ³           ares_set_servers_ports_csv.3
+    ³           ares_set_socket_callback.3
+    ³           ares_set_socket_configure_callback.3
+    ³           ares_set_socket_functions.3
+    ³           ares_set_sortlist.3
+    ³           ares_strerror.3
+    ³           ares_timeout.3
+    ³           ares_version.3
+    ³           zlib.3
+    ³           
+    ÀÄÄÄpkgconfig
+            zlib.pc
+            

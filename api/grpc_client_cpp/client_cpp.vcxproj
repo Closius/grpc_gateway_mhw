@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client_cpp.cpp" />
+    <ClCompile Include="src\proto_compiled\calculator.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\calculator.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\api\annotations.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\api\annotations.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\api\http.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\api\http.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\rpc\status.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\google\rpc\status.pb.cc" />
+    <ClCompile Include="src\proto_compiled\internal\descriptor\apiconfig\apiconfig.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\internal\descriptor\apiconfig\apiconfig.pb.cc" />
+    <ClCompile Include="src\proto_compiled\internal\descriptor\openapiconfig\openapiconfig.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\internal\descriptor\openapiconfig\openapiconfig.pb.cc" />
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.pb.cc" />
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.grpc.pb.cc" />
+    <ClCompile Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.pb.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\proto_compiled\calculator.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\calculator.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\api\annotations.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\api\annotations.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\api\http.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\api\http.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\rpc\status.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\google\rpc\status.pb.h" />
+    <ClInclude Include="src\proto_compiled\internal\descriptor\apiconfig\apiconfig.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\internal\descriptor\apiconfig\apiconfig.pb.h" />
+    <ClInclude Include="src\proto_compiled\internal\descriptor\openapiconfig\openapiconfig.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\internal\descriptor\openapiconfig\openapiconfig.pb.h" />
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\annotations.pb.h" />
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.grpc.pb.h" />
+    <ClInclude Include="src\proto_compiled\protoc-gen-openapiv2\options\openapiv2.pb.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1fd20a79-b1bd-4c6f-add2-fa56b08b268e}</ProjectGuid>
+    <RootNamespace>clientcpp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CARES_STATICLIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\src\proto_compiled;D:\distr\cpp\grpc\cmake\build\installed\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <DisableSpecificWarnings>4065;4506;4200;4291;4244;4267;4987;4774;4819;4996;4619;4503</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\distr\cpp\grpc\cmake\build\installed\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;absl_bad_any_cast_impl.lib;absl_bad_optional_access.lib;absl_bad_variant_access.lib;absl_base.lib;absl_city.lib;absl_civil_time.lib;absl_cord.lib;absl_cordz_functions.lib;absl_cordz_handle.lib;absl_cordz_info.lib;absl_cordz_sample_token.lib;absl_cord_internal.lib;absl_debugging_internal.lib;absl_demangle_internal.lib;absl_examine_stack.lib;absl_exponential_biased.lib;absl_failure_signal_handler.lib;absl_flags.lib;absl_flags_commandlineflag.lib;absl_flags_commandlineflag_internal.lib;absl_flags_config.lib;absl_flags_internal.lib;absl_flags_marshalling.lib;absl_flags_parse.lib;absl_flags_private_handle_accessor.lib;absl_flags_program_name.lib;absl_flags_reflection.lib;absl_flags_usage.lib;absl_flags_usage_internal.lib;absl_graphcycles_internal.lib;absl_hash.lib;absl_hashtablez_sampler.lib;absl_int128.lib;absl_leak_check.lib;absl_leak_check_disable.lib;absl_log_severity.lib;absl_low_level_hash.lib;absl_malloc_internal.lib;absl_periodic_sampler.lib;absl_random_distributions.lib;absl_random_internal_distribution_test_util.lib;absl_random_internal_platform.lib;absl_random_internal_pool_urbg.lib;absl_random_internal_randen.lib;absl_random_internal_randen_hwaes.lib;absl_random_internal_randen_hwaes_impl.lib;absl_random_internal_randen_slow.lib;absl_random_internal_seed_material.lib;absl_random_seed_gen_exception.lib;absl_random_seed_sequences.lib;absl_raw_hash_set.lib;absl_raw_logging_internal.lib;absl_scoped_set_env.lib;absl_spinlock_wait.lib;absl_stacktrace.lib;absl_status.lib;absl_statusor.lib;absl_strerror.lib;absl_strings.lib;absl_strings_internal.lib;absl_str_format_internal.lib;absl_symbolize.lib;absl_synchronization.lib;absl_throw_delegate.lib;absl_time.lib;absl_time_zone.lib;address_sorting.lib;cares.lib;crypto.lib;gpr.lib;grpc++.lib;grpc++_alts.lib;grpc++_error_details.lib;grpc++_reflection.lib;grpc++_unsecure.lib;grpc.lib;grpcpp_channelz.lib;grpc_plugin_support.lib;grpc_unsecure.lib;libprotobuf-lite.lib;libprotobuf.lib;libprotoc.lib;re2.lib;ssl.lib;upb.lib;zlib.lib;zlibstatic.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>echo %PATH%</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,500 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "calculator.proto",
+    "version": "1.0"
+  },
+  "tags": [
+    {
+      "name": "Calculator"
+    }
+  ],
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/api/ChangeSettings": {
+      "post": {
+        "operationId": "Calculator_ChangeSettings",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "properties": {}
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorChangeSettings_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/DictToList": {
+      "post": {
+        "operationId": "Calculator_DictToList",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "$ref": "#/definitions/calculatorDictToList_response"
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorDictToList_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/DoMath": {
+      "post": {
+        "operationId": "Calculator_DoMath",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "$ref": "#/definitions/calculatorDoMath_response"
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorDoMath_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/ListToDict": {
+      "post": {
+        "operationId": "Calculator_ListToDict",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "$ref": "#/definitions/calculatorListToDict_response"
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorListToDict_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/NewTestSet": {
+      "post": {
+        "summary": "Show the new set of requests",
+        "description": "This method increases the counter of the Calculator (original software) object and returns it",
+        "operationId": "Calculator_NewTestSet",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "$ref": "#/definitions/calculatorNewTestSet_response"
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "properties": {}
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/StartLongProcessStreaming": {
+      "post": {
+        "operationId": "Calculator_StartLongProcessStreaming",
+        "responses": {
+          "200": {
+            "description": "A successful response.(streaming responses)",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "result": {
+                  "$ref": "#/definitions/calculatorStartLongProcessStreaming_response"
+                },
+                "error": {
+                  "$ref": "#/definitions/rpcStatus"
+                }
+              },
+              "title": "Stream result of calculatorStartLongProcessStreaming_response"
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorStartLongProcessStreaming_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    },
+    "/api/StopLongProcessStreaming": {
+      "post": {
+        "operationId": "Calculator_StopLongProcessStreaming",
+        "responses": {
+          "200": {
+            "description": "A successful response.",
+            "schema": {
+              "properties": {}
+            }
+          },
+          "default": {
+            "description": "An unexpected error response.",
+            "schema": {
+              "$ref": "#/definitions/rpcStatus"
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/calculatorStopLongProcessStreaming_request"
+            }
+          }
+        ],
+        "tags": [
+          "Calculator"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "ChangeSettings_requestOptions": {
+      "type": "object",
+      "properties": {
+        "field1Str": {
+          "type": "string"
+        },
+        "field2Int": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "field3Float": {
+          "type": "number",
+          "format": "float"
+        },
+        "field4Int": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "field5RepStr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "calculatorChangeSettings_request": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ChangeSettings_requestOptions"
+          }
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "calculatorDictToList_request": {
+      "type": "object",
+      "properties": {
+        "dictSmpl": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/calculatorDictToList_requestDictMes"
+          }
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "calculatorDictToList_requestDictMes": {
+      "type": "object",
+      "properties": {
+        "k": {
+          "type": "string"
+        },
+        "v": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    },
+    "calculatorDictToList_response": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/calculatorDictToList_responseDictMes"
+          }
+        }
+      }
+    },
+    "calculatorDictToList_responseDictMes": {
+      "type": "object",
+      "properties": {
+        "k": {
+          "type": "string"
+        },
+        "v": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    },
+    "calculatorDoMath_request": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "format": "float"
+        },
+        "b": {
+          "type": "number",
+          "format": "float"
+        },
+        "operator": {
+          "type": "string"
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "calculatorDoMath_response": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "calculatorListToDict_request": {
+      "type": "object",
+      "properties": {
+        "seqKStr": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "seqVInt": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "calculatorListToDict_response": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/calculatorListToDict_responseDictMes"
+          }
+        }
+      }
+    },
+    "calculatorListToDict_responseDictMes": {
+      "type": "object",
+      "properties": {
+        "k": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "v": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    },
+    "calculatorNewTestSet_response": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "calculatorStartLongProcessStreaming_request": {
+      "type": "object",
+      "properties": {
+        "sequence": {
+          "type": "string",
+          "example": "Three Rings for the Elven-kings under the sky, Seven for the Dwarf-lords in their halls of stone, Nine for Mortal Men doomed to die, One for the Dark Lord on his dark throne In the Land of Mordor where the Shadows lie. One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them, In the Land of Mordor where the Shadows lie."
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "calculatorStartLongProcessStreaming_response": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "calculatorStopLongProcessStreaming_request": {
+      "type": "object",
+      "properties": {
+        "say": {
+          "type": "string",
+          "example": "YOU SHALL NOT PAAAAAAAS!"
+        }
+      },
+      "title": "-------------------------------------------------------------------------------------"
+    },
+    "protobufAny": {
+      "type": "object",
+      "properties": {
+        "@type": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": {}
+    },
+    "rpcStatus": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        },
+        "details": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/protobufAny"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "gRPC-gateway Anton Kavalerov test",
+    "url": "url_to_your_git_repo/grpc_client_web"
+  }
+}

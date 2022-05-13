@@ -1,0 +1,4 @@
+_PYTHON="C:\Python388\python.exe"
+GRPC_PORT=50051
+GRPC_REST_PORT=11000
+gRPC_INSTALL_DIR=D:\distr\cpp\grpc\cmake\build\installed

@@ -1,4 +1,5 @@
 __pycache__
-grpc_client_cpp\\distr
-grpc_client_cpp\\.vs
-grpc_client_cpp\\Release
+api\\grpc_client_cpp\\distr
+api\\grpc_client_cpp\\.vs
+api\\grpc_client_cpp\\Release
+api\\third_party_tools

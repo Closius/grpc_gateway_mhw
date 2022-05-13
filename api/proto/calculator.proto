@@ -1,0 +1,152 @@
+syntax = "proto3";
+package calculator;
+
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto"; // https://github.com/googleapis/googleapis
+import "protoc-gen-openapiv2/options/annotations.proto"; // https://github.com/grpc-ecosystem/grpc-gateway
+
+option go_package = "url_to_your_git_repo/grpc_client_web";
+option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
+    info: {
+    version: "1.0";
+  };
+  external_docs: {
+    url: "url_to_your_git_repo/grpc_client_web";
+    description: "gRPC-gateway Anton Kavalerov test";
+  }
+  schemes: HTTPS;
+};
+
+
+service Calculator {
+    rpc NewTestSet(google.protobuf.Empty) returns (NewTestSet_response) {
+        option (google.api.http) = {
+            post: "/api/NewTestSet"
+            body: "*"
+        };
+        option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = { // https://github.com/grpc-ecosystem/grpc-gateway/blob/master/protoc-gen-openapiv2/options/openapiv2.proto
+            summary: "Show the new set of requests"
+            description: "This method increases the counter of the Calculator (original software) object and returns it"
+            // tags: "#very_nice_method"
+        };
+    }
+    rpc ChangeSettings(ChangeSettings_request) returns (google.protobuf.Empty) {
+        option (google.api.http) = {
+            post: "/api/ChangeSettings"
+            body: "*"
+        };
+    }
+    rpc DoMath(DoMath_request) returns (DoMath_response) {
+        option (google.api.http) = {
+            post: "/api/DoMath"
+            body: "*"
+        };
+    }
+    rpc ListToDict(ListToDict_request) returns (ListToDict_response) {
+        option (google.api.http) = {
+            post: "/api/ListToDict"
+            body: "*"
+        };
+    }
+    rpc DictToList(DictToList_request) returns (DictToList_response) {
+        option (google.api.http) = {
+            post: "/api/DictToList"
+            body: "*"
+        };
+    }
+    rpc StartLongProcessStreaming(StartLongProcessStreaming_request) returns (stream StartLongProcessStreaming_response) {
+        option (google.api.http) = {
+            post: "/api/StartLongProcessStreaming"
+            body: "*"
+        };
+        // Just for example!
+        // option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+        //     description: "Stream responses (one of /api/GetNotificationsList ). \n\n\"data\" field of each Notification if different, see \"200 @type ...\" responses. Default: {}"
+        //     tags: "Notification system"
+        //     responses: { key: "200"; value: { description: "A successful response.(streaming responses)"; schema: { json_schema: {
+        //                     ref: ".calculator.StartLongProcessStreaming_response";
+        //     }}}}
+        //     responses: { key: "200 @type 0"; value: { description: "NewTestSet_response"; schema: { json_schema: {
+        //                     ref: ".calculator.NewTestSet_response";
+        //     }}}}
+        //     responses: { key: "200 @type 1"; value: { description: "Options"; schema: { json_schema: {
+        //                     ref: ".calculator.ChangeSettings_request.Options";
+        //     }}}}
+        // };
+    }
+    rpc StopLongProcessStreaming(StopLongProcessStreaming_request) returns (google.protobuf.Empty) {
+        option (google.api.http) = {
+            post: "/api/StopLongProcessStreaming"
+            body: "*"
+        };
+    }
+}
+
+
+message NewTestSet_response {
+    int32 message = 1;
+}
+// -------------------------------------------------------------------------------------
+message ChangeSettings_request {
+    string name = 1;
+    int32 identifier = 2;
+
+    message Options {
+        string field1_str = 1;
+        optional int32 field2_int = 2;
+        float field3_float = 3;
+        optional int32 field4_int = 4;
+        repeated string field5_rep_str = 5;
+    }
+
+    repeated Options options= 3;
+}
+// -------------------------------------------------------------------------------------
+message DoMath_request {
+    float a = 1;
+    float b = 2;
+    string operator = 3;
+}
+message DoMath_response {
+    float message = 1;
+}
+// -------------------------------------------------------------------------------------
+message ListToDict_request {
+    repeated string seq_k_str = 1;
+    repeated int32 seq_v_int = 2;
+}
+message ListToDict_response {
+    message DictMes {
+        repeated string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes message = 1;
+}
+// -------------------------------------------------------------------------------------
+message DictToList_request {
+    message DictMes {
+        string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes dict_smpl = 1;
+}
+message DictToList_response {
+    message DictMes {
+        string k = 1;
+        repeated int32 v = 2;
+    }
+    repeated DictMes message = 1;
+}
+// -------------------------------------------------------------------------------------
+message StartLongProcessStreaming_request {
+    string sequence = 1 [(grpc.gateway.protoc_gen_openapiv2.options.openapiv2_field) = {
+        example: "\"Three Rings for the Elven-kings under the sky, Seven for the Dwarf-lords in their halls of stone, Nine for Mortal Men doomed to die, One for the Dark Lord on his dark throne In the Land of Mordor where the Shadows lie. One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them, In the Land of Mordor where the Shadows lie.\"",
+    }];
+}
+message StartLongProcessStreaming_response {
+    string message = 1;
+}
+// -------------------------------------------------------------------------------------
+message StopLongProcessStreaming_request {
+    string say = 1 [(grpc.gateway.protoc_gen_openapiv2.options.openapiv2_field) = { example: "\"YOU SHALL NOT PAAAAAAAS!\""}]; // https://gitcode.net/mirrors/grpc-ecosystem/grpc-gateway/-/blob/master/examples/internal/proto/examplepb/a_bit_of_everything.proto?from_codechina=yes
+}

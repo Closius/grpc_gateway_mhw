@@ -1,4 +1,5 @@
 _PYTHON="C:\Python388\python.exe"
 GRPC_PORT=50051
 GRPC_REST_PORT=11000
-gRPC_INSTALL_DIR=D:\distr\cpp\grpc\cmake\build\installed
+gRPC_CPP_DIR=D:\personal\github\grpc_gateway_mhw\api\third_party_tools\grpc_cpp
+gRPC_INSTALL_DIR=D:\personal\github\grpc_gateway_mhw\api\third_party_tools\grpc_cpp\cmake\build\installed

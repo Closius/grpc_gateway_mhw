@@ -12,27 +12,18 @@ Prerequisites
 
     https://github.com/googleapis/googleapis for HTTP transcoding (REST)
 
+in VS project:
+
+    src/proto_compiled/google <-- https://github.com/googleapis/googleapis 
+    src/proto_compiled/internal <-- https://github.com/grpc-ecosystem/grpc-gateway
+    src/proto_compiled/protoc-gen-openapiv2 <-- https://github.com/grpc-ecosystem/grpc-gateway
+
 Build & install gRPC
 --------------------
 
-gRPC sould be built from source and installed. The installation means just copying certain files (particularly .h and .lib) into convenient organisation 
 
-    cd D:\distr\cpp\grpc   # this is just empty folder
-    git clone --recurse-submodules -b v1.45.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
-    cd grpc
+    bin/install_grpc_cpp.bat
 
-gRPC_INSTALL_DIR - is a dir, where gRPC buil files will be organized after build and install. These folders/files you can use in you C++ project. For convenience it is set in ```./api/env_vars_common.txt```
-
-    cd cmake
-    mkdir build
-    cd build
-    mkdir installed
-    cd installed
-    mkdir bin
-    cd ..  
-    set gRPC_INSTALL_DIR=D:\distr\cpp\grpc\cmake\build\installed
-
-Add to PATH: NASM (```C:\Program Files\NASM```), ```%gRPC_INSTALL_DIR%\bin```, Cmake (```C:\Program Files\CMake\bin```)
 
 > **NOTE** ```%gRPC_INSTALL_DIR%\bin``` is not really necessary to add to PATH on this step
 
@@ -61,10 +52,6 @@ Add to PATH: NASM (```C:\Program Files\NASM```), ```%gRPC_INSTALL_DIR%\bin```, C
 >   - C:\Users\mdkk4v\AppData\Local\Microsoft\WindowsApps
 >   - D:\distr
 
-
-    cmake -DgRPC_INSTALL=ON -DgRPC_MSVC_STATIC_RUNTIME=ON  -DgRPC_ABSL_PROVIDER=module  -DgRPC_CARES_PROVIDER=module  -DgRPC_PROTOBUF_PROVIDER=module  -DgRPC_RE2_PROVIDER=module  -DgRPC_SSL_PROVIDER=module  -DgRPC_ZLIB_PROVIDER=module -DCMAKE_INSTALL_PREFIX=%gRPC_INSTALL_DIR% ..\.. > cmake_1_log.txt
-    cmake --build . --config Release > cmake_build_log.txt
-    cmake --install . --config Release > cmake_install_log.txt
 
 Please see the reference of the content of ```%gRPC_INSTALL_DIR%``` in ```misc/gRPC_INSTALL_DIR_tree.txt``` 
 

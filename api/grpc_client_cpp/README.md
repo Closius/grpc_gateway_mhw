@@ -18,6 +18,11 @@ in VS project:
     src/proto_compiled/internal <-- https://github.com/grpc-ecosystem/grpc-gateway
     src/proto_compiled/protoc-gen-openapiv2 <-- https://github.com/grpc-ecosystem/grpc-gateway
 
+boost
+-----
+
+I started to use boost for organazing receiving Notifications in a parallel thread from gRPC. But I've implemneted it in my work task. I just didn't apply it here. Maybe once I'll do it
+
 Build & install gRPC
 --------------------
 

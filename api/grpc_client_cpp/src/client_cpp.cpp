@@ -2,6 +2,11 @@
 #include <memory>
 #include <string>
 
+//#define BOOST_USE_WINDOWS_H
+//#include <boost/thread/thread.hpp>
+//#include <boost/lockfree/queue.hpp>
+//#include <boost/filesystem.hpp>
+
 #include <grpcpp/grpcpp.h>
 #include <google/protobuf/empty.pb.h>
 #include <google/protobuf/util/json_util.h>

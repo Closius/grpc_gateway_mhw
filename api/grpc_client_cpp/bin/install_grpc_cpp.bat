@@ -3,7 +3,7 @@
 set "__NASM=C:\Program Files\NASM"
 set "__cmake=C:\Program Files\CMake\bin"
 rem Read common env vars from file
-for /F "usebackq tokens=*" %%A in ("../../env_vars.txt") do set %%A
+for /F "usebackq tokens=*" %%A in ("../../env_vars_common.txt") do set %%A
 set "THIS_FOLDER=%~dp0"
 git clone --recurse-submodules -b v1.45.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc %gRPC_CPP_DIR%
 mkdir %gRPC_CPP_DIR%\cmake\build
@@ -17,5 +17,6 @@ cmake --build %gRPC_CPP_DIR%\cmake\build --config Release > %THIS_FOLDER%\cmake_
 echo "cmake --install | See log: %THIS_FOLDER%\cmake_install_log.txt"
 cmake --install %gRPC_CPP_DIR%\cmake\build --config Release > %THIS_FOLDER%\cmake_install_log.txt
 echo "Instalation completed. ALL DONE"
+echo IMPORTANT: go to https://sourceforge.net/projects/boost/files/boost-binaries/1.64.0/ download boost_1_64_0-msvc-14.1-64.exe and install into ..\..\third_party_tools\boost_1_64_0
 @endlocal
 pause
